@@ -4,3 +4,50 @@
 .Simple-gray-Texture-Background-3-hex { color: #5F6673; }
 .Simple-gray-Texture-Background-4-hex { color: #84878C; }
 .Simple-gray-Texture-Background-5-hex { color: #F2F2F2; }
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0em;
+    padding: 0em;
+}
+
+header, footer {
+    background-color: #84878C;;
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 100%;
+    padding: 2em;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-75{
+    width: 75%;
+}
+.w-66{
+    width: 66.6666%;
+}
+
+.w-50{
+    width: 50%;
+}
+.w-33{
+    width: 33.3333%;
+}
+.w-25{
+    width: 25%;
+}
