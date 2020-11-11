@@ -21,18 +21,37 @@ header, footer {
     width: 100%;
     margin: 0;
 }
-/*
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 6em;            /* Footer height */
+}
+
 #foot {
-    width: 1000px;
     justify-content: space-between;
     align-items: center;
     display: flex;
     padding: 0px;
-    height: 4em;
+    height: 6em;
     margin: 0 auto;
     width: 1000px;
 }
-*/
+
+#foot p {
+    font-size: 0.8em;
+    margin: 2em;
+}
+
+#colorado-denim-logo {
+    height: 4em;
+    margin: 2em 0 2em 3.5em;
+}
+
+#colorado-proud {
+    height: 4em;
+    margin: 2em;
+}
 
 .container {
     width: 1000px;
