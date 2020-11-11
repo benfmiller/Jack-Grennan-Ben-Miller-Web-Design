@@ -16,11 +16,12 @@
   vertical-align: center;
 }
 
-#nav ul li {
-  margin: 0;
+#nav ul {
+  margin: 0 9em 0 0;
 }
 
 #nav ul li {
+  margin: 0;
     display: block;
     float: left;
     background-color: aliceblue;
@@ -28,7 +29,7 @@
 
 #nav ul li a{
     display: block;
-    padding: 0.6em;
+    padding: 0.3em 1.2em;
     font-size: 1em;
     text-decoration: none;
 }
@@ -37,39 +38,36 @@
     background-color: lightblue;
 }
 #shopping-cart {
-    height: 3em;
+    height: 2em;
 }
 
 #current {
-  background-color: black;
-  color: #3B5998;
+  background-color:#5F6673;
+  color: #000000;
 }
 
 #current a:hover{
   background-color: white;
 }
 
-.soc{
-  height: 3em;
-  width: 3em;
-  margin: 0.2em;
-}
-
-.soc:hover {
-    opacity: 0.7;
-}
-
 #nav input[type=text] {
   height: 1.2em;
   width: 10em;
-  float: right;
   padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
   border: none;
   font-size: 17px;
 }
 
 .topnav input[type=text] {
   border: 1px solid #ccc;  
+}
+
+.soc{
+  height: 2em;
+  width: 2em;
+  margin: 0.2em;
+}
+
+.soc:hover {
+    opacity: 0.7;
 }
