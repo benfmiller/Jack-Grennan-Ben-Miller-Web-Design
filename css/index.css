@@ -1,31 +1,18 @@
  #main {
-     box-sizing: border-box;
-     background-color: #ffffff;
-     float: right;
      width: 100%;
-     height: auto;
-     padding: 1em;
      margin: 0%;
-     height: 33em;
  }
 
 #crazyboxes {
-    box-sizing: border-box;
     float: left;
     width: 50%;
     padding: 0em 0.5em;
-
 }
 
 h2 {
     margin-top: 0%;
 }
 
- body {
-     background-color: #F09044;
-     margin: 0%;
-     padding: 0%;
- }
 
  h1 {
     text-align: center;
@@ -33,9 +20,4 @@ h2 {
     color: #79210b;
     font-size: 3.5em;
     margin: .5em;
-
- }
-
- footer {
-
  }

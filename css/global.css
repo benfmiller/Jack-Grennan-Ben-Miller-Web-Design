@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     margin: 0em;
     padding: 0em;
@@ -20,24 +21,18 @@ header, footer {
     width: 100%;
     margin: 0;
 }
-
 /*
-header {
-    position: fixed;
+#foot {
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    height: 4em;
+    margin: 0 auto;
+    width: 1000px;
 }
 */
-
-footer {
-     clear: both;
-     padding: 1em;
-}
-
-/*
-#topMargin {
-    margin: auto auto;
-}
-*/
-
 
 .container {
     width: 1000px;
