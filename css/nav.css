@@ -4,7 +4,7 @@
     align-items: center;
     display: flex;
     padding: 0px;
-    height: 5em;
+    height: 4em;
     margin: 0 auto;
     width: 1000px;
     z-index: 1;
@@ -17,7 +17,7 @@
 }
 
 #nav ul {
-  margin: 0 9em 0 0;
+  margin: 0 9em 0 0.7em;
 }
 
 #nav ul li {
@@ -29,6 +29,7 @@
 
 #nav ul li a{
     display: block;
+    color: #2e2e2e;
     padding: 0.3em 1.2em;
     font-size: 1em;
     text-decoration: none;
@@ -37,22 +38,24 @@
 #nav ul li a:hover{
     background-color: lightblue;
 }
+
 #shopping-cart {
     height: 2em;
 }
 
-#current {
-  background-color:#5F6673;
-  color: #000000;
+#current a {
+  background-color:#84878C;
+  color: #ffffff;
 }
 
 #current a:hover{
-  background-color: white;
+  background-color:#5F6673;
 }
 
 #nav input[type=text] {
-  height: 1.2em;
+  height: 1.6em;
   width: 10em;
+  margin: 0 0.7em 0 1em;
   padding: 6px;
   border: none;
   font-size: 17px;
