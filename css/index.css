@@ -21,4 +21,6 @@ h1 {
 
 #big-photo {
     background-image: url("../images/bunchOfJeans.jpg");
+
+    text-shadow: 2em 2em 10em rgb(0,0,50,0.5);
 }
