@@ -1,9 +1,9 @@
 /* Color Theme Swatches in Hex */
-.Simple-gray-Texture-Background-1-hex { color: #212226; }
-.Simple-gray-Texture-Background-2-hex { color: #343840; }
-.Simple-gray-Texture-Background-3-hex { color: #5F6673; }
-.Simple-gray-Texture-Background-4-hex { color: #84878C; }
-.Simple-gray-Texture-Background-5-hex { color: #F2F2F2; }
+.Simple-gray-Texture-Background-1-hex { color: #3B5E8C; }
+.Simple-gray-Texture-Background-2-hex { color: #314259; }
+.Simple-gray-Texture-Background-3-hex { color: #6394BF; }
+.Simple-gray-Texture-Background-4-hex { color: #F2BFAC; }
+.Simple-gray-Texture-Background-5-hex { color: #F2836B; }
 
 * {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body{
 }
 
 header, footer {
-    background-color: #b5b8bd;;
+    background-color: #F2836B;;
     width: 100%;
     margin: 0;
 }
@@ -54,6 +54,7 @@ footer {
 .container {
     width: 1000px;
     margin: 0 auto;
+    background-color: #dfdfdf;
 }
 
 .row{
@@ -68,6 +69,11 @@ footer {
 .w-100{
     width: 100%;
 }
+
+.w-80{
+    width: 80%;
+}
+
 .w-75{
     width: 75%;
 }
@@ -83,4 +89,20 @@ footer {
 }
 .w-25{
     width: 25%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.no-margins{
+    margin: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
 }
