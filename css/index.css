@@ -1,26 +1,36 @@
 
 
-#crazyboxes {
-    float: left;
-    width: 50%;
-    padding: 0em 0.5em;
-}
-
-h2 {
-    margin-top: 0%;
-}
-
-
 h1 {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #343840;
+    color: #000000;
     font-size: 3.5em;
-    margin: .5em;
+    margin: 0.8em auto 0.2em auto;
+    text-shadow: 0.2em 0.2em 0.5em rgb(200,200,200);
+}
+
+h2 {
+    font-size: 2.7em;
+
 }
 
 #big-photo {
-    background-image: url("../images/bunchOfJeans.jpg");
+    background-image: url("../images/home-cover.jpg");
+    background-size: 100% 230%;
+    height: 20em;
+    width: 100%;
+}
 
-    text-shadow: 2em 2em 10em rgb(0,0,50,0.5);
+#youngsters{
+    background-image: url("../images/bunchOfJeans.jpg");
+    height: 4em;
+}
+
+#womens{
+    background-image: url("../images/bunchOfJeans.jpg");
+    height: 4em;
+}
+#mens{
+    background-image: url("../images/bunchOfJeans.jpg");
+    height: 4em;
 }

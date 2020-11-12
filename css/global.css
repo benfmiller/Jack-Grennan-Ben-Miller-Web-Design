@@ -63,7 +63,7 @@ footer {
 
 .col{
     width: 100%;
-    padding: 2em;
+    padding: 1.5em;
 }
 
 .w-100{
@@ -105,4 +105,29 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+    margin: auto;
+}
+
+.center-headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+  color: black;
+  background-color: white;
+  padding: 0.8em 5em;
+  border: 2px solid #e7e7e7;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.25s;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #e7e7e7;
 }
