@@ -103,6 +103,10 @@ footer {
     padding: 0;
 }
 
+.center-margin{
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: auto;
@@ -114,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-button {
+.button {
   color: black;
   background-color: white;
   padding: 0.8em 5em;
@@ -128,6 +132,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: #e7e7e7;
 }
