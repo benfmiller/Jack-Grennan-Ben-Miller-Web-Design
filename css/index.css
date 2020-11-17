@@ -1,17 +1,19 @@
 
 
 h1 {
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    color: #000000;
     font-size: 3.5em;
-    margin: 0.8em auto 0.2em auto;
-    text-shadow: 0.2em 0.2em 0.5em rgb(200,200,200);
+    margin: 1.4em auto 0.2em auto;
+    text-shadow: -0.1em 0em 0.3em #ffffff;
 }
 
 h2 {
     font-size: 2.7em;
 
+}
+
+h3 {
+    text-shadow: -0.1em 0em 0.9em #ffffff;
+    font-size: 1.3em;
 }
 
 p {
@@ -21,21 +23,33 @@ p {
 
 #big-photo {
     background-image: url("../images/home-cover.jpg");
-    background-size: 100% 230%;
-    height: 20em;
+    background-size: 100%;
+    height: 25em;
     width: 100%;
 }
 
 #youngsters{
     background-image: url("../images/Y_product3.jpg");
-    height: 4em;
+    background-size: 100%;
+    height: 15em;
 }
 
 #womens{
     background-image: url("../images/women_jean.jpg");
-    height: 4em;
+    background-size: 100%;
+    height: 15em;
 }
 #mens{
     background-image: url("../images/man-denim.jpg");
+    background-size: 100%;
+    height: 15em;
+}
+
+.img-title{
+    font-size: 2em;
+    text-shadow: -0.1em 0em 0.2em #ffffff;
+}
+
+.descriptionPara {
     height: 4em;
 }
