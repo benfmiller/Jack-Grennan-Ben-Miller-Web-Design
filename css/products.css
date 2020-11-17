@@ -1,6 +1,7 @@
 .wide-photo {
     object-fit: cover;
     height: 5em;
+    border-radius: 10%;
 }
 
 .button {
@@ -11,4 +12,8 @@
 
 .product-pic {
   height: 8em;
+}
+
+.product-col {
+  padding: 0.4em;
 }
