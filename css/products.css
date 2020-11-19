@@ -13,6 +13,10 @@
   border-radius: 10%;
 }
 
+.button-one-liner {
+  padding: 1.2em 2em;
+}
+
 .button-holder {
   box-sizing: border-box;
   width: 8.5em;
