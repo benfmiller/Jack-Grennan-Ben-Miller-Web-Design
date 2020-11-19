@@ -1,5 +1,6 @@
 .wide-photo {
     object-fit: cover;
+    object-position: 10% 35%;
     height: 5em;
     border-radius: 10%;
 }
