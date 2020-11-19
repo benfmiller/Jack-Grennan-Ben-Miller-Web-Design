@@ -17,3 +17,18 @@ h1 {
 .quotes {
     font-family: 'Ubuntu', sans-serif;
 }
+
+.employee-photo {
+    height: 7em;
+    object-fit: cover;
+    width: 100%;
+    object-position: 0% 20%;
+}
+
+.value-photo {
+    padding: 2.2em 0 1.3em 0;
+}
+
+.outside-block {
+    padding: 1.2em;
+}
