@@ -13,3 +13,7 @@ h1 {
     height: 20em;
     width: 100%;
 }
+
+.quotes {
+    font-family: 'Ubuntu', sans-serif;
+}

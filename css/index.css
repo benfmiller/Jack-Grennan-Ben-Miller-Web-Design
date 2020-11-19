@@ -29,18 +29,19 @@ p {
 }
 
 #youngsters{
-    background-image: url("../images/Y_product3.jpg");
+    background-image: url("../images/kids_denim.jpg");
     background-size: 100%;
     height: 15em;
 }
 
 #womens{
-    background-image: url("../images/women_jean.jpg");
-    background-size: 100%;
+    background-image: url("../images/women_denim.jpg");
+    background-size: 150% 100%;
+    background-position: 50% 10%;
     height: 15em;
 }
 #mens{
-    background-image: url("../images/man-denim.jpg");
+    background-image: url("../images/two-guys-denim.jpg");
     background-size: 100%;
     height: 15em;
 }
@@ -52,4 +53,13 @@ p {
 
 .descriptionPara {
     height: 4em;
+}
+
+.proud-img {
+    height: 11em;
+}
+
+#big-link {
+    text-decoration: none;
+    color: #000000;
 }
